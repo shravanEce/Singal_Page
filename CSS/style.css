@@ -1,0 +1,196 @@
+
+body{
+    background-color: #fafafa;
+}
+.left-heading{
+    font-family:'Lora';
+    margin: 55px 0 55px 55px;
+    font-size:35px;
+}
+.list-item li{
+    font-family:'Times New Roman', Times, serif;
+    list-style: none;
+    margin-bottom: 40px;
+    color:#666464 ;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.Btn{
+    text-decoration: none;
+    background-color: rgb(252, 93, 93);
+    font-size: 18px;
+    color: white;
+    padding: 15px 50px 15px 50px;
+    border-radius: 200px;
+    margin-left: 60px;
+}
+.list-item{
+    margin-bottom: 6rem;
+}
+.left-div{
+    float: left;
+}
+
+.Right{
+    width: 100%;
+}
+
+.right-div{
+    float:left
+}
+
+
+.header{
+    font-family: 'Lora';
+    font-size: 70px;
+    margin: 150px 130px 0 130px;
+    width: 100%;
+}
+
+.para{
+    font-family: system-ui;
+    font-size: 17px;
+    margin: 150px 10px 0 170px;
+    font-weight:500;
+    color:#666464 ;
+
+    
+}
+.border{
+    border-bottom: 3px solid rgb(252, 93, 93);
+    width: 75px;
+    margin-left: 175px;
+}
+
+.image{
+    float: left;
+    margin:100px 0 0 145px; 
+    display: block;
+    cursor: pointer;
+}
+
+.img{
+    float: left;
+    margin-right: 20px;
+    padding: 30px;
+    background-color:white;
+    border-radius: 15%;
+
+}
+.ims{
+    border-radius: 50%;
+}
+.parag{
+    text-align: center;
+    font-weight:100%;
+}
+.cart{
+    display: none;
+}
+
+
+/*-----------------------------------------------------------------------
+----------------------------Responsive-----------------------------------
+------------------------------------------------------------------------*/
+  @media only screen and (max-width: 1507px) {
+    .para,.header{
+        width: 100%;
+    }
+    .image{
+        width: 70%;
+    }
+    .img{
+        margin-bottom: 20px;
+    }
+  }
+  @media only screen and (max-width: 1450px) {
+    .para,.border{
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 1140px) {
+    .image{
+        padding: auto;
+        width: 50%;
+    }
+  }
+  @media only screen and (max-width: 1025px) {
+    .image{
+        padding: auto;
+        width: 50%;
+        margin-left: 55px;
+    }
+    .header{
+        width: 30%;
+        margin:55px 0 55px 55px
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+      .image{
+        display: none;
+    }
+  }
+
+
+
+    
+/*------------------------Mobile-------------------*/
+
+
+
+
+@media only screen and (max-width: 850px){
+
+    .nav div{
+        height: 4px;
+        background-color: brown;
+        margin: 5px 0;
+        border-radius: 25px;
+    }
+    .nav{
+        width: 30px;
+        display: block;
+        margin: 1em 0 0 1em;
+    }
+    .one{
+        width: 25px;
+    }
+    .two{
+        width: 30px;
+    }
+    .three{
+        width: 30px;
+    }
+    .nav:hover div{
+        width: 30px;
+    }
+    .cart{
+        float: right;
+        color: brown;
+        font-size: 40px;
+        margin-top: -45px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
